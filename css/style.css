@@ -1,0 +1,50 @@
+body{
+  margin: 0;
+  background-color: #d8f3dc;
+  text-align: center;
+  font-family:'Merriweather', serif;
+}
+h1{
+  margin: 0;
+font-family: 'Sacramento', cursive;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+}
+.logo{
+  height: 100px;
+  width: 100px;
+  align-items: center;
+}
+.dev{
+  height: 100px;
+  width: 100px;
+}
+.profiles{
+  height: 150px;
+  width: 150px;
+}
+
+.names{
+margin-top:100px;
+font-size: 25px;
+}
+
+.middle-container{
+
+}
+.bottom-container{
+
+}
+.mountain{
+  height: 600px;
+  width: 600px;
+  align-items: center;
+  position: relative;
+
+}
