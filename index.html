@@ -1,73 +1,202 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+<html>
 
-    <link rel="stylesheet" href="css/style.css">
-    <meta charset="utf-8">
-    <title>Nadeem khan</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <link rel="icon" href="AvatarMaker.png" type="image/icon type">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,400&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <title>TinDog</title>
+  <script src="https://kit.fontawesome.com/97a3e7ceb3.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,900;1,200;1,300&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+</head>
 
-
-  </head>
-  <body>
-    <div class="logo">
-      <img src="logo.png" alt="">
-    </div>
-    <div class="middle-container">
-      <div class="names">
-
-        <h1>I'm Nadeem Khan</h1>
-        <p>a web designer</p>
-
-      </div>
-  <img class="mountain" src="mount.png" alt="">
-
-    </div>
+<body>
 
 
-    <div class="bottom-container">
+<section id="title">
+<div class="container-fluid ">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" style="color:white;" href="#">Tindog </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
-    </div>
-    <div class="middle-container">
-      <div class="profile">
-        <img class="profiles" src="profile.png" alt="">
-        <h2>Hello.</h2>
-      </div>
-      <p>I am a Web Developer. I am a founder and CEO of UrbanCoders. I love Coffee 😊</p>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="dev" src="dev.png" alt="">
-          <h3>Web Developer</h3>
-          <p>I am a Web designer with Expertise in HTML,CSS,JS,Bootstrap and React.</p>
+        <ul class="navbar-nav  ms-auto" >
+            <li class="navbar-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="navbar-item">
+                <a class="nav-link" href="#" >Princing</a>
+            </li>
+            <li class="navbar-item">
+                <a class="nav-link" href="#" >Download</a>
+            </li>
+        </ul>
+       </div>
+       </div>
+    </nav>
+
+    <!-- Title -->
+
+    <div class="margins">
+      <div class="row">
+          <div class="col-lg-6">
+            <h1>Meet new and interesting dogs nearby.</h1>
+            <button class="download-button btn btn-dark btn-lg" type="button">
+              <i class="fab fa-apple"></i> Download</button>
+            <button class="download-button btn btn-outline-light btn-lg" type="button">
+              <i class="fab fa-google-play"></i> Download</button>
+          </div>
+          <div class="col-lg-6 md-4 sm-3 title-image"><img src="images/iphone6.png" alt="iphone-mockup"></div>
         </div>
-        <div class="skill-row">
-          <iframe src="https://giphy.com/embed/ZgTR3UQ9XAWDvqy9jv" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-          <h3>Web Designing</h3>
-          <p>For Web Designing Project Feel Free to contact.</p>
+      </div>
+
+</section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="row">
+        <div class="col-6 col-md-4">
+          <span style="font-size: 48px; color:#ff4c68;">
+            <i class="fas fa-check-circle fa-5x"></i>
+          </span><br>
+          <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.
+        </p></div>
+        <div class="col-6 col-md-4">
+          <span style="font-size: 48px; color:#ff4c68;">
+            <i class="fas fa-bullseye fa-5x"></i>
+          </span>
+          <br>
+
+          <h3>Elite Clientele</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="col-6 col-md-4">
+          <span style="font-size: 48px; color:#ff4c68;">
+            <i class="fas fa-heart fa-5x"></i>
+          </span> <br>
+          <h3>Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
         </div>
       </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>I would love to hear from your side😊 .</h3>
-        <p>You can Contact me through Email or Social Networking Platforms.</p>
-        <a class="btn" href="mailto:nadeemlameec@gmail.com">CONTACT ME</a>
+  </section>
+
+
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="images/dog-img.jpg" alt="dog-profile">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <em>Pebbles, New York</em>
+
+        </div>
+        <div class="col">
+
+            <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+            <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+            <em>Beverly, Illinois</em>
+        </div>
+      </div>
+
+
+
+
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5 col-md-6">
+        <img src="images/techcrunch.png" alt="tc-logo"></div>
+        <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+          <img src="images/bizinsider.png" alt="biz-insider-logo"></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-5 col-lg-6">
+          <img src="images/tnw.png" alt="tnw-logo"></div>
+        <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
+          <img src="images/mashable.png" alt="mashable-logo"></div>
       </div>
     </div>
+  </section>
 
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/nadeemmkdav">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/nadeemlam">Twitter</a>
-      <a class="footer-link" href="https://www.facebook.com/nadeemmkdav>Website</a>
-      <p>© 2021 Nadeem Khan.</p>
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Every Dog's Needs</h2>
+    <p>Simple and affordable price plans for your and your dog.</p>
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+              <h3>Chihuahua</h3>
+              <h2>Free</h2>
+              <p>5 Matches Per Day</p>
+              <p>10 Messages Per Day</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-light" type="button">Sign Up</button>
+        </div>
+        <div class="col-sm">
+
+              <h3>Labrador</h3>
+              <h2>$49 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+            <button class="btn btn-light" type="button">Sign Up</button>
+        </div>
+        <div class="col-sm">
+
+              <h3>Mastiff</h3>
+              <h2>$99 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-light" type="button">Sign Up</button>
+        </div>
+      </div>
     </div>
+</section>
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>Find the True Love of Your Dog's Life Today.</h3>
+    <button class="download-button btn btn-dark btn-lg" type="button">
+      <i class="fab fa-apple"></i> Download</button>
+    <button class="download-button btn btn-outline-light btn-lg" type="button">
+      <i class="fab fa-google-play"></i> Download</button>
+  </div>
+  <p>© Copyright 2021 TinDog</p>
+  </section>
 
 
-  </body>
+</body>
+
 </html>
